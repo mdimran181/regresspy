@@ -12,7 +12,7 @@ def mae(pred: ndarray, label: ndarray) -> ndarray:
     Returns:
         (ndarray): mean absolute errors.
     """
-    pass
+    return np.mean(np.abs(label - pred))
 
 
 def sse(pred: ndarray, label: ndarray) -> ndarray:
@@ -25,7 +25,7 @@ def sse(pred: ndarray, label: ndarray) -> ndarray:
     Returns:
         (ndarray): residual sum of squared errors.
     """
-    pass
+    return np.sum(np.power((label - pred), 2))
 
 
 def mse(pred: ndarray, label: ndarray) -> ndarray:
@@ -38,7 +38,7 @@ def mse(pred: ndarray, label: ndarray) -> ndarray:
     Returns:
         (ndarray): mean squared errors.
     """
-    pass
+   return np.mean(np.power((label - pred), 2))
 
 
 def rmse(pred: ndarray, label: ndarray) -> ndarray:
@@ -51,5 +51,4 @@ def rmse(pred: ndarray, label: ndarray) -> ndarray:
     Returns:
         (ndarray): root mean squared errors.
     """
-    pass
-
+  return np.sqrt(np.mean(np.power((label - pred), 2)))
