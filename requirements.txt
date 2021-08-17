@@ -1,0 +1,5 @@
+#software and program requirement
+
+numpy==1.19.5
+scikit-learn
+conda==4.10.1
