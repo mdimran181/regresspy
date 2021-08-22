@@ -5,7 +5,7 @@ from numpy import ndarray
 
 from loss import mae, sse, mse, rmse
 from gradient_descent import forward, backward
-from regresspy import loss
+
 
 
 class Regression(object):
