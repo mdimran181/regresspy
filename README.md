@@ -112,4 +112,4 @@ pip install pytest
 ```
 -This will automatically check whether your test functions are correct or not.
 
-If 4 item passed correctly. Done! regresspy package is working now. 
+If 4 item passed correctly. Done! regresspy package is working now..
