@@ -1,7 +1,7 @@
 from sklearn.linear_model import SGDRegressor
 from sklearn.datasets import load_iris
-from regresspy.regression import Regression
-from regresspy.loss import rmse
+from regression import Regression ##Change 'from regresspy.regression import Regression' to 'from regression import Regression'
+from loss import rmse  ##'from regresspy.loss import rmse' to 'from loss import rmse'
 
 iris = load_iris()
 X = iris.data[:, 0].reshape(-1, 1)
